@@ -10,8 +10,8 @@ title: Alkami
 email: dmitry@alkami.io
 description: > # this means to ignore newlines until "baseurl:"
   Alkami is a group of entrepreneurs that happen to be passionate web-developers. Many of us are based in Denver Colorado. We design and build applications for the web.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://alkamicode.github.io/alkami-web-site-blog" # the base hostname & protocol for your site
+baseurl: "/alkami-web-site-blog" # the subpath of your site, e.g. /blog
+url: "http://alkamicode.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
