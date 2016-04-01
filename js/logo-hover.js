@@ -1,6 +1,6 @@
 function hover(element) {
-    element.setAttribute('src', '/alkami-web-site-blog/images/logo_gold.png');
+    element.setAttribute('src', '/images/logo_gold.png');
 }
 function unhover(element) {
-    element.setAttribute('src', '/alkami-web-site-blog/images/logo_white.png');
+    element.setAttribute('src', '/images/logo_white.png');
 }
