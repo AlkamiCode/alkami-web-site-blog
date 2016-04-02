@@ -11,7 +11,7 @@ $(document).ready(function(){
   var arrow = $('#landing-arrow');
 
   function runIt() {
-    arrow.css("top", "90%")
+    arrow.css("top", "80%")
     arrow.animate({top:'+=30'}, 1000);
     arrow.animate({top:'-=30'}, 1000, runIt);
   }
