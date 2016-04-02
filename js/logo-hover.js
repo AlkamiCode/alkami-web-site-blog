@@ -1,11 +1,13 @@
-$(document).ready(function(){
-  function hover(element) {
-      element.setAttribute('src', '/images/logo_gold.png');
-  }
-  function unhover(element) {
-      element.setAttribute('src', '/images/logo_white.png');
-  }
+function hover(element) {
+    element.setAttribute('src', '/images/logo_gold.png');
+}
+function unhover(element) {
+    element.setAttribute('src', '/images/logo_white.png');
+}
 
+$(document).ready(function(){
+
+  // Float landing page arrow infinitely
   var arrow = $('#landing-arrow');
 
   function runIt() {
@@ -13,6 +15,5 @@ $(document).ready(function(){
     arrow.animate({top:'+=30'}, 1000);
     arrow.animate({top:'-=30'}, 1000, runIt);
   }
-
   runIt();
 });
