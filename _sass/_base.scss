@@ -156,8 +156,7 @@ pre {
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 100%;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
@@ -169,8 +168,6 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
-
 
 /**
  * Clearfix
@@ -201,4 +198,9 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.page-content {
+  margin-left: 5%;
+  margin-right: 5%;
 }
