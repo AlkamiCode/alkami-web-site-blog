@@ -17,7 +17,9 @@ To create a new post, all you need to do is create a file in the _posts director
 Code highlighting inside your markup file is simple:
 
 `{% highlight ruby %}`
+
     `Code Goes Here!`
+
 `{% endhighlight %}`
 
 ### Things to keep in mind
