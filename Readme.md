@@ -18,7 +18,7 @@ Code highlighting inside your markup file is simple:
 
 `{% highlight ruby %}`
 
-    `Code Goes Here!`
+  Code Goes Here!
 
 `{% endhighlight %}`
 
