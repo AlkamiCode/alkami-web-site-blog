@@ -3384,7 +3384,7 @@
       max-width: 95%;
       padding: 6em;
       position: relative;
-      text-align: right;
+      text-align: center;
       vertical-align: middle;
       z-index: 1;
     }
@@ -4040,4 +4040,10 @@ section#five {
   #navPanel > nav > .link:nth-last-child(1) {
     display: none;
   }
+}
+
+.banner-text {
+  font-size: x-large;
+  font-family: monospace;
+  color: #ffd700;
 }
