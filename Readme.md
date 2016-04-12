@@ -4,9 +4,9 @@
 2. `git clone git@github.com:AlkamiCode/alkami-web-site-blog.git`
 3. `git checkout gh-pages`
 4. `bundle install`
-5. `bundle exec jekyll serve --config _config_dev.yml`
+5. `bundle exec jekyll serve`
 
-The last step fires up a server using the development config.yml
+The last step fires up a server using using config.yml
 
 ### Writing Posts
 
@@ -37,8 +37,6 @@ Most of them have what's called front-matter at the top of the file, for example
 landing_page.html is in the _layouts folder,
 it's just a way to include partials from other folders.
 
-Ignore the site logo disapearing when you hover over it in development,
-it only happens in development and it's not a cause for concern.
 
 If you're adding css, don't add it to any file that has a .css extention!
 These are generated files that come from the .scss files.
