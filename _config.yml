@@ -12,6 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Alkami is a group of entrepreneurs that happen to be passionate web-developers. Many of us are based in Denver Colorado. We design and build applications for the web.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alkamicode.github.io" # the base hostname & protocol for your site
+permalink: /:title
+post_dirs: false
 twitter_username:
 github_username:  AlkamiCode
 facebook_username: alkami.io
