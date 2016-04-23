@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Production Site settings
-title: Alkami
+title: Alkami - Web Development
 email: info@alkami.io
 description: > # this means to ignore newlines until "baseurl:"
-  Alkami is a group of entrepreneurs that happen to be passionate web-developers. Many of us are based in Denver Colorado. We design and build applications for the web.
+  Alkami is a group of entrepreneurs that happen to be passionate web site and web application developers. Many of us are based in Denver Colorado. We partner with small business and entrepreneurs and help design and build apps for the web. We make everything from e-commerce sites to blogs or social networking apps.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alkamicode.github.io" # the base hostname & protocol for your site
 permalink: /:title
