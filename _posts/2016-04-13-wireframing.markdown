@@ -9,7 +9,8 @@ categories: Information
 
 {% include image.html
   img="blog-post-images/simple-wireframe.png"
-  title=""
+  alt="basic wireframe"
+  title="basic wireframe"
   caption=""
 %}
 
@@ -27,7 +28,8 @@ Lastly, design the footer. Sometimes the footer is just a bigger version of the 
 
 {% include image.html
   img="blog-post-images/simple-wireframe.jpg"
-  title=""
+  alt="simple wireframe"
+  title="simple wireframe"
   caption=""
 %}
 
@@ -43,6 +45,7 @@ Wireframes usually start out simple and could end up looking something like the 
 
 {% include image.html
   img="blog-post-images/new-york-times-wireframe.jpg"
-  title=""
+  alt="new york times wireframe"
+  title="new york times wireframe"
   caption=""
 %}

@@ -29,6 +29,7 @@ Say, for example, you have five blog posts in your Wordpress blog. When you visi
 
 {% include image.html
   img="blog-post-images/jekyll.jpg"
+  alt="jekyll"
   title="jekyll"
   caption=""
 %}
@@ -37,6 +38,7 @@ Jekyll is a parsing engine bundled as a ruby gem used to build static websites f
 
 {% include image.html
   img="blog-post-images/octopress.png"
+  alt="octopress"
   title="octopress"
   caption=""
 %}
@@ -45,6 +47,7 @@ Octopress is a static blogging framework built on top of Jekyll. It uses scripts
 
 {% include image.html
   img="blog-post-images/hugo.png"
+  alt="hugo"
   title="hugo"
   caption=""
 %}
@@ -53,7 +56,8 @@ If you’re looking for sheer performance, Hugo should be at the top of your lis
 
 {% include image.html
   img="blog-post-images/9-hexo.jpg"
-  title="hugo"
+  alt="hexo"
+  title="hexo"
   caption=""
 %}
 
@@ -61,16 +65,11 @@ Hexo is a fast, simple and powerful blog framework powered by Node.js, that supp
 
 {% include image.html
   img="blog-post-images/pelican.png"
-  title="hugo"
+  alt="pelican"
+  title="pelican"
   caption=""
 %}
 
 I’m a Ruby on Rails developer, so tools like Jekyll and Middleman are super attractive to me. If, however, you’re a Python kind of guy, then check out Pelican — the most popular static blog generator built with Python.
-
-{% include image.html
-  img="blog-post-images/hugo.png"
-  title="hugo"
-  caption=""
-%}
 
 Fairly new open source tool that seemlesly integrates with GitHub pages. All you need is a GitHub account and unlike all the other blogs I mentioned, you have access to an online admin panel, where you can write your blog posts. Pretty awesome feature if you ask me.
