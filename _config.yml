@@ -9,7 +9,7 @@
 title: Alkami - Web Development, Web Design, Apps, Web Sites
 email: info@alkami.io
 description: > # this means to ignore newlines until "baseurl:"
-  Alkami is a group of entrepreneurs that happen to be passionate web site and web application developers. Many of us are based in Denver Colorado. We partner with small business and entrepreneurs and help design and build apps for the web. We make everything from e-commerce sites to blogs or social networking apps.
+  Alkami is a group of entrepreneurs that happen to be passionate web site and web application developers. Many of us are based in Denver Colorado. We partner with small business and entrepreneurs to help design and build apps for the web. We build everything from e-commerce platforms, blogs, social networking apps, marketing sites to custom in house sofware for small business.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alkami.io" # the base hostname & protocol for your site
 permalink: /:title
