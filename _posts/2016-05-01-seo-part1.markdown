@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Search Engine Optimization Part 1"
+date:   2016-04-12 18:20:55 -0600
+categories: SEO
+---
+
+What's the point of having a website if no one can find it? following the best practices outlined by Google, I've decided to summarize the basics in a 3 part series. If you follow the pointers in this series, it will make it easier for search engines to crawl, index and understand the content on your site. Over time this should lead to more visitors and better search rankings.
+
+# Create Unique, Accurate Page Titles
+
+A title tag tells both users and search engines what the topic of your page is. The `<title>` tag should be placed within the `<head>` tag of your HTML document. Ideally, you should create a unique title for each page on your site. If you don't have many pages on your site, one concise easy to understand title will suffice. Make sure to choose a title that effectively explains the content that's being presented on the page. Avoid choosing a title that has nothing to do with the content on the page.
+
+{% include image.html
+  img="blog-post-images/good-bad-title-description.png"
+  alt="good vs bad title tag description"
+  title="good vs bad title tag"
+  caption=""
+%}
+
+# Make Use Of The Description Meta Tag
+
+A page's description meta tag gives Google and other search engines a summary of what the page is about. Whereas a page's title may be a few words or a short phrase, a page's description meta tag might be a  few sentences or a short paragraph. Like the `<title>` tag, the description meta tag is placed within the `<head>` tag of your HTML document. `<meta name="description" content="accurately summarize the page's content">` Similar to the title tag, make sure to avoid writing a description meta tag that has no relation to the content on the page.
+
+{% include image.html
+  img="blog-post-images/good-vs-bad-url.jpg"
+  alt="good vs bad url"
+  title="good vs bad URL"
+  caption=""
+%}
+
+Creating descriptive categories and filenames for the documents on your website will keep your site better organized and it could also lead to better crawling of your documents by search engines. Also, it creates more pleasing to look at URLs for those that want to link to your content. Visitors may be turned off by very long and cryptic URLs that contain few recognizable words. URLs need to be relevant to your site's content. You want to make it easier for visitors to remember them better. Instead of having a URL look like this `http://surfingtheglobe.com/blog/posts/january/nicaragua-adventure/235hgihng45h` , you're better off making it like this `http://surfingtheglobe.com/blog/nicaragua-adventure`
+
+# Make Your Site Easier To Navigate
+
+The navigation of a website is important in helping visitors quickly find the content they want. It also helps search engines understand what content the webmaster(site owner/manager) thinks is relevant. If you have a website deeply nested in the file structure of your site, you're implying that the content of that page is not very important. Google likes to have a sense of what role a page plays in the bigger picture of your website.
+
+{% include image.html
+  img="blog-post-images/breadcrumb.png"
+  alt="website breadcrumbs"
+  title="website breadcrumbs"
+  caption=""
+%}
+
+You can ensure more convenience for users by using breadcrumb lists. A breadcrumb is a row of internal links at the top or bottom of the page that allows visitors to quickly navigate back to a previous section or the root of your site. Many breadcrumbs plug-ins/widgets have the root page as the first, left-most link and list the sections you visited before ending up on the the current page.
+
+# Prepare A SiteMap
+
+{% include image.html
+  img="blog-post-images/xml-sitemap-example.jpg"
+  alt="xml sitemap"
+  title="xml sitemap"
+  caption=""
+%}
+
+An XML Sitemap file, which you can submit through Google's [Webmaster Tools](https://www.google.com/webmasters/tools/home?hl=en){:target="_blank"} or create one yourself if you're using a [static site generator](http://www.alkami.io/static-site-generators){:target=" _blank"} like jekyll, makes it easier for Google to discover the pages on your site. Using a Sitemap file is also one way to tell Google which version of a URL you'd prefer as the [canonical](https://support.google.com/webmasters/answer/139066?hl=en){:target=" _blank"} one, e.g. `http://surftheglobe.com/` or `http:// www.surftheglobe.com/`.
+
+# Offer Quality Content And Services
+
+This goes without saying but creating compelling and useful content will likely influence your website far more than anything else we discuss here. You've likely heard the mantra [Content Is King](http://www.craigbailey.net/content-is-king-by-bill-gates/){:target=" _blank"}. Users have a sense for good content and will likely want to direct other users to it by sharing. This could be through blog posts, social media outlets, email, or forums. Organic word-of-mouth advertising goes a long way in building your site's reputation with both users and Google. Write captivating easy to read text. Stay organized around a topic you are passionate about. Create fresh content regularly; as often as possible because Google loves seeing a consistent stream of new content. And don't forget to create content for Users not search engines! You're primary focus should be the user, if users love it Google will love it!
