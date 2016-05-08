@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "Search Engine Optimization Part 2"
+date:   2016-05-07 18:20:55 -0600
+categories: SEO
+---
+
+What’s the point of having a website if no one can find it? In [part 1](http://www.alkami.io/seo-part1) we discussed creating accurate page titles, making use of the description meta tag, improving structure of your URL's, making your site easier to navigate, preparing a sitemap and offering quality content and services. Let's continue our dive into the mysterious world of SEO.
+
+# Write Better Anchor <a> Text
+
+{% include image.html
+  img="blog-post-images/anchor-tags.jpg"
+  alt="html anchor tags"
+  title="html anchor tags"
+  caption=""
+%}
+
+Anchor text is the clickable text that users will see as a result of a link. It is placed within the anchor tag `<a href="..."></a>` This text tells users and Google crawlers a little bit about the page you're linking to. Links on your page may point to other pages or your site or pages of other sites. In either of these cases, the better your anchor text is, the easier it is for users to navigate and for Google to understand what the page you're linking to is about. The anchor text you use for a link should provide at least a basic idea of what the page linked to is about.
+
+
+# Optimize Your Use Of Images
+
+How you use your images is important. All images can have a distinct filename and "alt" attribute, both of which you should take advantage of. Sometimes images can't be displayed to some users, this is where the alt tag comes in handy; it tells the user what the image is about. Filenames are important as well, make sure to name your image files properly. Anyone should take a glance at the filename and have a good idea of what the image looks like or contains.
+
+# Use Heading Tags Appropriately
+
+{% include image.html
+  img="blog-post-images/header-tag-hierarchy.jpg"
+  alt="html header tags"
+  title="html header tag hierarchy"
+  caption=""
+%}
+
+Since heading tags typically make text contained in them larger than normal text on the page, this is a visual cue to users that this text is important and could help them understand something about the type of content underneath the heading text. Use multiple heading sizes `<h1>, <h2>, <h3>` etc... in your document to create a hierarchical structure that visually separates different sections of your page.
+
+# Make Effective Use of robots.txt
+
+{% include image.html
+  img="blog-post-images/robots-txt-file.png"
+  alt="robots.txt file"
+  title="robots.txt file"
+  caption=""
+%}
+
+A "robots.txt" file tells search engines whether they can crawl parts of your site. This file, which must be named "robots.txt", is placed in the root directory of your site. You may have a page or a few pages you don't want users to land on by clicking a link they came across while doing a Google search. You can tell Google to not display these pages in their search results in your "robots.txt" file.
+
+# Be Aware of rel="nofollow" For Links
+
+{% include image.html
+  img="blog-post-images/rel-nofollow.jpg"
+  alt="html rel=nofollow attribute"
+  title="html rel=nofollow attribute"
+  caption=""
+%}
+
+Setting the value of the "rel" attribute of a link to "nofollow" will tell Google that certain links on your site shouldn't be followed. No-following a link is adding rel="nofollow" inside of the link's anchor tag `<a>`. This would be very useful if your site has a blog with public commenting turned on. Links within those comments could pass users to sites you might not agree with. Blog comment areas are very susceptible to comment spam. No-following these user-added links ensures that you're not giving your page's hard-earned reputation to a spammy site.
+
+Most blogging services like WordPress automatically nofollow user comments, but those that don't can often be manually edited to do this. This advice also goes for other areas of your site that contain user generated content. It's ok to allow users the right to link to other pages from your site, just be careful and make sure these are pages you agree with. Google has interesting ways of identifying how spammy a page is, and your site's reputation could be tarnished if you have many links to spammy content.

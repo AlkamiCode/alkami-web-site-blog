@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Search Engine Optimization Part 1"
-date:   2016-04-12 18:20:55 -0600
+date:   2016-05-01 18:20:55 -0600
 categories: SEO
 ---
 
