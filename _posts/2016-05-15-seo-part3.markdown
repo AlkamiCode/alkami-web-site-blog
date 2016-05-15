@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Search Engine Optimization Part 3"
+date:   2016-05-15 13:20:55 -0600
+categories: SEO
+---
+
+What’s the point of having a website if no one can find it? In part-2 of this wicked gnarly series we covered anchor tags, images, heading tags, robots.txt file, and re='no-follow'. This is our final part and will focus on mobil
+
+# Notify Google Of Mobile Sites
+
+The world is going mobile! Mobile phones are everywhere and many users do most of their internet surfing on their mobile phones. As a webmaster, running a mobile site and tapping into the mobile search audience isn't easy. Mobile sites require different management methods, which pose new challenging. While many mobile sites were designed with mobile viewing in mind, they weren’t designed to be search engine friendly. Let's take a look at some troubleshooting methods that will ensure your site in crawled and indexed.
+
+{% include image.html
+  img="blog-post-images/mobile-sitemap.jpg"
+  alt="mobile sitemap"
+  title="mobile sitemap"
+  caption=""
+%}
+
+Create a [mobile-sitemap](https://support.google.com/webmasters/topic/2370586?rd=1){:target="_blank"}, which is slightly different from the desktop site-map we covered in [part-1](http://www.alkami.io/seo-part1). A mobile sitemap can be submitted using [webmaster-tools](https://support.google.com/webmasters/answer/156184){:target="_blank"} just like a regular site-map.
+
+Some mobile sites refuse access to anything but mobile phones, making it impossible for Googlebot to access the site. Google has a specific crawler for mobile called "Googlebot-Mobile." If you'd like your site crawled, allow any User-agent including "Googlebot-Mobile" to access your site.
+
+Once Googlebot-Mobile crawls your URLs, Google checks for whether each URL is viewable on a mobile device. Pages Google deams are not viewable on a mobile phone are not stored in Google's mobile site index. This determination is based on a variety of factors that our out of the scope of those post. Here's the [best place](https://support.google.com/webmasters/answer/72462){:target="_blank"} to start for gathering more information.
+
+# Guide Mobile Users Accurately
+
+{% include image.html
+  img="blog-post-images/growth-of-mobile.jpg"
+  alt="growth of mobile chart"
+  title="growth of mobile chart"
+  caption=""
+%}
+
+> When a mobile user or crawler (like Googlebot-Mobile) accesses the desktop version of a URL, you can redirect them to the corresponding mobile version of the same page. Google notices the relationship between the two versions of the URL and displays the standard version for searches from desktops and the mobile version for mobile searches. -WebMaster Docs
+
+Keep in mind that Google is not responsible for displaying the mobile version of your site in search results for someone using a mobile device. There's many ways to enable Google search results to display the correct version of your site, but that's a blog post of its own. The simplest way to solve this problem is to track a visitors [User-Agent](http://www.whatsmyua.com/){:target="_blank"} and provide a mobile user a link to view your mobile optimized site incase he/she lands on the desktop version.
+
+At [Alkami](http://www.alkami.io) we don't believe in building separate sites for different sized screens. We believe in building one responsive site using mobile-first design principles. What this means is we build you one site that looks and works great on any screen, and because we begin designing your site with mobile in mind you end up with a lean version that clearly gets your message across in as few words as possible.
+
+# Promote Your WebSite In The Right Ways
+
+{% include image.html
+  img="blog-post-images/website-promotion.jpg"
+  alt="website promotion"
+  title="website promotion"
+  caption=""
+%}
+
+As we wrap up our final post of our 3-part series, I would like to beat the dead horse one last time by emphasizing the importance of positive promotion. Effectively promoting your new content will allow target users to locate your site. The more people discover and link to your site the more of a web presence you're going to establish. Become a master at making announcement via blog posts. Write pertinent blog posts that speak to your target audience. Engage with your audience in as many positive ways as possible. Setup social media accounts for your business and share what's going on in your ecosystem.
+
+If you run a local business, adding its information to [Google Places](https://www.google.com/business/?ppsrc=GPDA2){:target="_blank"} will help you reach customers on Google Maps and web search. The [Webmaster Help Center](https://support.google.com/webmasters/answer/92319){:target="_blank"} has more tips on promoting your local business.
