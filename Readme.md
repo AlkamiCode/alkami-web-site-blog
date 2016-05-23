@@ -22,6 +22,12 @@ Code highlighting inside your markup file is simple:
 
 `{% endhighlight %}`
 
+### Adding Images To Post
+
+1. After you've created a post create a new directory inside of `blog-post-images` and name the new directory exactly how you named your blog post file minus `.markdown`
+2. Add your blog post images to this file
+3. Make sure to add a banner image to this new directory and name it `banner.jpg` This way it will display your banner image on the `/blog` page.
+
 ### Things to keep in mind
 
 Don't make changes to any files inside of the _site folder,
@@ -36,7 +42,6 @@ Most of them have what's called front-matter at the top of the file, for example
 
 landing_page.html is in the _layouts folder,
 it's just a way to include partials from other folders.
-
 
 If you're adding css, don't add it to any file that has a .css extention!
 These are generated files that come from the .scss files.

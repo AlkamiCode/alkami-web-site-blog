@@ -1020,9 +1020,9 @@ body .markdown-body
 <li><code>git clone git@github.com:AlkamiCode/alkami-web-site-blog.git</code></li>
 <li><code>git checkout gh-pages</code></li>
 <li><code>bundle install</code></li>
-<li><code>bundle exec jekyll serve --config _config_dev.yml</code></li>
+<li><code>bundle exec jekyll serve</code></li>
 </ol>
-<p>The last step fires up a server using the development config.yml</p>
+<p>The last step fires up a server using using config.yml</p>
 <h3 id="writing-posts"><a name="user-content-writing-posts" href="#writing-posts" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Writing Posts</h3>
 <p>To create a new post, all you need to do is create a file in the _posts directory. How you name files in this folder is important. Jekyll requires blog post files to be named according to the following format:</p>
 <p><code>YEAR-MONTH-DAY-title.MARKUP</code></p>
@@ -1030,6 +1030,12 @@ body .markdown-body
 <p><code>{% highlight ruby %}</code></p>
 <p>Code Goes Here!</p>
 <p><code>{% endhighlight %}</code></p>
+<h3 id="adding-images-to-post"><a name="user-content-adding-images-to-post" href="#adding-images-to-post" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Adding Images To Post</h3>
+<ol>
+<li>After you&rsquo;ve created a post create a new directory inside of <code>blog-post-images</code> and name the new directory exactly how you named your blog post file minus <code>.markdown</code></li>
+<li>Add your blog post images to this file</li>
+<li>Make sure to add a banner image to this new directory and name it <code>banner.jpg</code> This way it will display your banner image on the <code>/blog</code> page.</li>
+</ol>
 <h3 id="things-to-keep-in-mind"><a name="user-content-things-to-keep-in-mind" href="#things-to-keep-in-mind" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Things to keep in mind</h3>
 <p>Don&rsquo;t make changes to any files inside of the _site folder,<br />
 everything in there is automatically generated when you make changes elsewhere.</p>
@@ -1040,8 +1046,6 @@ Most of them have what&rsquo;s called front-matter at the top of the file, for e
 <code>---</code></p>
 <p>landing_page.html is in the _layouts folder,<br />
 it&rsquo;s just a way to include partials from other folders.</p>
-<p>Ignore the site logo disapearing when you hover over it in development,<br />
-it only happens in development and it&rsquo;s not a cause for concern.</p>
 <p>If you&rsquo;re adding css, don&rsquo;t add it to any file that has a .css extention!<br />
 These are generated files that come from the .scss files.<br />
 If you want to add css please do so at the bottom of _alkami-site.scss</p>
