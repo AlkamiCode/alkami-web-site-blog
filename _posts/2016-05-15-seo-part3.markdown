@@ -5,7 +5,7 @@ date:   2016-05-15 13:20:55 -0600
 categories: SEO
 ---
 
-What’s the point of having a website if no one can find it? In part-2 of this wicked gnarly series we covered anchor tags, images, heading tags, robots.txt file, and re='no-follow'. This is our final part and will focus on mobil
+What’s the point of having a website if no one can find it? In part-2 of this wicked gnarly series we covered anchor tags, images, heading tags, robots.txt file, and re='no-follow'. This is our final part and will focus on mobile.
 
 # Notify Google Of Mobile Sites
 
