@@ -12,7 +12,7 @@ What’s the point of having a website if no one can find it? In part-2 of this 
 The world is going mobile! Mobile phones are everywhere and many users do most of their internet surfing on their mobile phones. As a webmaster, running a mobile site and tapping into the mobile search audience isn't easy. Mobile sites require different management methods, which pose new challenging. While many mobile sites were designed with mobile viewing in mind, they weren’t designed to be search engine friendly. Let's take a look at some troubleshooting methods that will ensure your site in crawled and indexed.
 
 {% include image.html
-  img="blog-post-images/mobile-sitemap.jpg"
+  img="blog-post-images/seo-part3/mobile-sitemap.jpg"
   alt="mobile sitemap"
   title="mobile sitemap"
   caption=""
@@ -27,7 +27,7 @@ Once Googlebot-Mobile crawls your URLs, Google checks for whether each URL is vi
 # Guide Mobile Users Accurately
 
 {% include image.html
-  img="blog-post-images/growth-of-mobile.jpg"
+  img="blog-post-images/seo-part3/growth-of-mobile.jpg"
   alt="growth of mobile chart"
   title="growth of mobile chart"
   caption=""
@@ -42,7 +42,7 @@ At [Alkami](http://www.alkami.io) we don't believe in building separate sites fo
 # Promote Your WebSite In The Right Ways
 
 {% include image.html
-  img="blog-post-images/website-promotion.jpg"
+  img="blog-post-images/seo-part3/website-promotion.jpg"
   alt="website promotion"
   title="website promotion"
   caption=""

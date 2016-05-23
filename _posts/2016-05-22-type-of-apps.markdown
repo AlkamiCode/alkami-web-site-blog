@@ -10,7 +10,7 @@ Many people are still confused about the difference between common types of appl
 # What's A Web Site?
 
 {% include image.html
-  img="blog-post-images/website.jpg"
+  img="blog-post-images/type-of-apps/website.jpg"
   alt="website"
   title="website"
   caption=""
@@ -26,7 +26,7 @@ A basic static web site, like a portfolio page or a coming soon page, should not
 # What's A Web App?
 
 {% include image.html
-  img="blog-post-images/web-app.jpg"
+  img="blog-post-images/type-of-apps/web-app.jpg"
   alt="web app"
   title="webapp"
   caption=""
@@ -39,7 +39,7 @@ The reason people understand the term web site better than the term web app is b
 # What's A Native App?
 
 {% include image.html
-  img="blog-post-images/nativeapp-vs-webapp.jpg"
+  img="blog-post-images/type-of-apps/nativeapp-vs-webapp.jpg"
   alt="native app vs web app"
   title="native app vs web app"
   caption=""

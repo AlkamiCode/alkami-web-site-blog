@@ -5,14 +5,9 @@ date:   2016-04-12 18:20:55 -0600
 categories: Information
 ---
 
-# What is wireframing?
+Every entrepreneur that's considering starting a web based business needs to understand the fundamentals of wireframing.
 
-{% include image.html
-  img="blog-post-images/simple-wireframe.png"
-  alt="basic wireframe"
-  title="basic wireframe"
-  caption=""
-%}
+# What is wireframing?
 
 A wireframe is an architectural blueprint for your web-site. Before contractors go to work building the web-site of your dreams, they need a clear vision into what exactly you're trying to construct. How many pages is your site going to have? Each page should have it's own wireframe. At a much deeper level, a wireframe is very useful in determining how the user interacts with the interface. So as you conceptualize your web-app always keep the end user in mind.
 
@@ -27,7 +22,7 @@ Next is the body of the page. Since you're starting out on the homepage, make su
 Lastly, design the footer. Sometimes the footer is just a bigger version of the nav-bar. It's bigger because it might contain a contact form, a google map with a location marker and/or a quote. Think of it this way, after a user scrolls through your site and reaches the bottom you want to provide a way for them to continue the journey or you want to facilitate some kind of call to action. The last thing you want is a user scrolling to the bottom, losing interest and just leaving. Providing a bunch of options will help you retain attention.
 
 {% include image.html
-  img="blog-post-images/simple-wireframe.jpg"
+  img="blog-post-images/wireframing/simple-wireframe.jpg"
   alt="simple wireframe"
   title="simple wireframe"
   caption=""
@@ -44,7 +39,7 @@ If your wireframe is exceptional, which is rarely the case, any web-developer wi
 Wireframes usually start out simple and could end up looking something like the sketch below, but it's important to start out from a very high level perspective and gradually work your way down.
 
 {% include image.html
-  img="blog-post-images/new-york-times-wireframe.jpg"
+  img="blog-post-images/wireframing/new-york-times-wireframe.jpg"
   alt="new york times wireframe"
   title="new york times wireframe"
   caption=""

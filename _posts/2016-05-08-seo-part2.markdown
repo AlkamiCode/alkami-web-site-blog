@@ -10,7 +10,7 @@ What’s the point of having a website if no one can find it? In [part 1](http:/
 # Write Better Anchor <a> Text
 
 {% include image.html
-  img="blog-post-images/anchor-tags.jpg"
+  img="blog-post-images/seo-part2/anchor-tags.jpg"
   alt="html anchor tags"
   title="html anchor tags"
   caption=""
@@ -26,7 +26,7 @@ How you use your images is important. All images can have a distinct filename an
 # Use Heading Tags Appropriately
 
 {% include image.html
-  img="blog-post-images/header-tag-hierarchy.jpg"
+  img="blog-post-images/seo-part2/header-tag-hierarchy.jpg"
   alt="html header tags"
   title="html header tag hierarchy"
   caption=""
@@ -37,7 +37,7 @@ Since heading tags typically make text contained in them larger than normal text
 # Make Effective Use of robots.txt
 
 {% include image.html
-  img="blog-post-images/robots-txt-file.png"
+  img="blog-post-images/seo-part2/robots-txt-file.png"
   alt="robots.txt file"
   title="robots.txt file"
   caption=""
@@ -48,7 +48,7 @@ A "robots.txt" file tells search engines whether they can crawl parts of your si
 # Be Aware of rel="nofollow" For Links
 
 {% include image.html
-  img="blog-post-images/rel-nofollow.jpg"
+  img="blog-post-images/seo-part2/rel-nofollow.jpg"
   alt="html rel=nofollow attribute"
   title="html rel=nofollow attribute"
   caption=""

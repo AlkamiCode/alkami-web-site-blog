@@ -13,6 +13,9 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <div class="image-wrapper" >
+          <img src="{{ site.baseurl }}/blog-post-images/{{post.url}}/banner.jpg" alt="{{ include.title }}"/>
+        </div></br>
         {{ post.excerpt }}
       </li>
     {% endfor %}

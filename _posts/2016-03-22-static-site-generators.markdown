@@ -5,6 +5,8 @@ date:   2016-03-22 18:20:55 -0600
 categories: Technical
 ---
 
+Let's talk about the differences between static and dynamic sites. 
+
 # What's a dynamic site?
 
 A dynamic site runs a server side scripting language(PHP, Rails, Pearl) to dynamically create the page being requested by each user. The pages on your Wordpress-powered blog are built on the fly! Database queries are run to get the different pieces, such as the title, content, or links. These are then returned and processed by PHP for EACH request. Every time a user visits one of your pages fresh HTML, styled by CSS and made fancy-shmancy by JavaScript, is built and served to the user.
@@ -28,7 +30,7 @@ Say, for example, you have five blog posts in your Wordpress blog. When you visi
 *Too many to list but here are some of the ones I find interested.*
 
 {% include image.html
-  img="blog-post-images/jekyll.jpg"
+  img="blog-post-images/static-site-generators/jekyll.jpg"
   alt="jekyll"
   title="jekyll"
   caption=""
@@ -37,7 +39,7 @@ Say, for example, you have five blog posts in your Wordpress blog. When you visi
 Jekyll is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator”. We love Jekyll so much we integrated it into our site, this blog is powered by Jekyll.
 
 {% include image.html
-  img="blog-post-images/octopress.png"
+  img="blog-post-images/static-site-generators/octopress.png"
   alt="octopress"
   title="octopress"
   caption=""
@@ -46,7 +48,7 @@ Jekyll is a parsing engine bundled as a ruby gem used to build static websites f
 Octopress is a static blogging framework built on top of Jekyll. It uses scripts to build static files to be deployed to a server.
 
 {% include image.html
-  img="blog-post-images/hugo.png"
+  img="blog-post-images/static-site-generators/hugo.png"
   alt="hugo"
   title="hugo"
   caption=""
@@ -55,7 +57,7 @@ Octopress is a static blogging framework built on top of Jekyll. It uses scripts
 If you’re looking for sheer performance, Hugo should be at the top of your list. It has plenty of features, but its biggest draw is that it’s built with Go — a language famous for its speed. If I were starting a blog with a frequent publishing schedule and the expectation of thousands of pages, I’d choose Hugo.
 
 {% include image.html
-  img="blog-post-images/9-hexo.jpg"
+  img="blog-post-images/static-site-generators/9-hexo.jpg"
   alt="hexo"
   title="hexo"
   caption=""
@@ -64,7 +66,7 @@ If you’re looking for sheer performance, Hugo should be at the top of your lis
 Hexo is a fast, simple and powerful blog framework powered by Node.js, that supports multi-thread generating, so hundreds of files take just seconds to generate. Your posts are parsed with Markdown which then generates static files, with installation taking just a few minutes.
 
 {% include image.html
-  img="blog-post-images/pelican.png"
+  img="blog-post-images/static-site-generators/pelican.png"
   alt="pelican"
   title="pelican"
   caption=""

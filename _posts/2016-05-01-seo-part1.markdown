@@ -12,7 +12,7 @@ What's the point of having a website if no one can find it? following the best p
 A title tag tells both users and search engines what the topic of your page is. The `<title>` tag should be placed within the `<head>` tag of your HTML document. Ideally, you should create a unique title for each page on your site. If you don't have many pages on your site, one concise easy to understand title will suffice. Make sure to choose a title that effectively explains the content that's being presented on the page. Avoid choosing a title that has nothing to do with the content on the page.
 
 {% include image.html
-  img="blog-post-images/good-bad-title-description.png"
+  img="blog-post-images/seo-part1/good-bad-title-description.png"
   alt="good vs bad title tag description"
   title="good vs bad title tag"
   caption=""
@@ -23,7 +23,7 @@ A title tag tells both users and search engines what the topic of your page is. 
 A page's description meta tag gives Google and other search engines a summary of what the page is about. Whereas a page's title may be a few words or a short phrase, a page's description meta tag might be a  few sentences or a short paragraph. Like the `<title>` tag, the description meta tag is placed within the `<head>` tag of your HTML document. `<meta name="description" content="accurately summarize the page's content">` Similar to the title tag, make sure to avoid writing a description meta tag that has no relation to the content on the page.
 
 {% include image.html
-  img="blog-post-images/good-vs-bad-url.jpg"
+  img="blog-post-images/seo-part1/good-vs-bad-url.jpg"
   alt="good vs bad url"
   title="good vs bad URL"
   caption=""
@@ -36,7 +36,7 @@ Creating descriptive categories and filenames for the documents on your website 
 The navigation of a website is important in helping visitors quickly find the content they want. It also helps search engines understand what content the webmaster(site owner/manager) thinks is relevant. If you have a website deeply nested in the file structure of your site, you're implying that the content of that page is not very important. Google likes to have a sense of what role a page plays in the bigger picture of your website.
 
 {% include image.html
-  img="blog-post-images/breadcrumb.png"
+  img="blog-post-images/seo-part1/breadcrumb.png"
   alt="website breadcrumbs"
   title="website breadcrumbs"
   caption=""
@@ -47,7 +47,7 @@ You can ensure more convenience for users by using breadcrumb lists. A breadcrum
 # Prepare A SiteMap
 
 {% include image.html
-  img="blog-post-images/xml-sitemap-example.jpg"
+  img="blog-post-images/seo-part1/xml-sitemap-example.jpg"
   alt="xml sitemap"
   title="xml sitemap"
   caption=""
