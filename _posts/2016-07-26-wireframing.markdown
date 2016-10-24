@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating A WireFrame For Your Site"
-date:   2016-04-12 18:20:55 -0600
+date:   2016-07-26 18:20:55 -0600
 categories: Information
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Minimum Viable Product (MVP)"
-date:   2016-06-10 13:20:55 -0600
+date:   2016-10-07 13:20:55 -0600
 categories: Apps
 ---
 

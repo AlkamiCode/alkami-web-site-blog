@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rails vs WordPress"
-date:   2016-07-21 13:01:55 -0600
+date:   2016-10-23 13:01:55 -0600
 categories: Apps
 ---
 

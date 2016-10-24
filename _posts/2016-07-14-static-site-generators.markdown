@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "The Universe Of Static Site Generators"
-date:   2016-03-22 18:20:55 -0600
+date:   2016-07-26 18:20:55 -0600
 categories: Technical
 ---
 
-Let's talk about the differences between static and dynamic sites. 
+Let's talk about the differences between static and dynamic sites.
 
 # What's a dynamic site?
 

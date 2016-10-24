@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Is it a web site? A web app? Or a native app?"
-date:   2016-05-22 13:20:55 -0600
+date:   2016-09-26 13:20:55 -0600
 categories: Apps
 ---
 
